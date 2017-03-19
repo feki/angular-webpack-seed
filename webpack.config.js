@@ -8,6 +8,11 @@ module.exports = {
     filename: 'app.js',
     path: '/dist'
   },
+  resolve: {
+    extensions: [
+      '.ts', '.js'
+    ]
+  },
   module: {
     rules: [
       {
